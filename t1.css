@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+main #playlist{
+    height: 100%;
+    width: 40%;
+    padding: 5vh;
+}
+main #mainvideo{
+    height: 100%;
+    text-align: center;
+    width: 60%;
+    padding: 5vh;
+    /* background-color: red; */
+}
+#buttons{
+    text-align: center;
+}
+button{
+    margin-right: 5vh;
+    
+}
